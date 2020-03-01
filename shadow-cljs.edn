@@ -5,7 +5,9 @@
   "src/test"]
 
  :dependencies
- [[reagent "0.9.1"]]
+ [[Reagent "0.9.1"]
+  [re-frame "0.11.0"]
+  [cljs-http "0.1.46" ]]
 
  :builds
  {:app
